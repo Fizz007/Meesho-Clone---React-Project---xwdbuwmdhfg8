@@ -7,7 +7,7 @@ import Header from "../component/Header";
 import Slider from "../component/Slider";
 import List from "../List/List";
 import Login from "../Login/Login";
-// import Footer from "../component/Footer/Footer";
+
 
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
           <Categories />
           <List />       
 
-          {/* <Footer/> */}
+         
     
         </div> : <Login/>}
 

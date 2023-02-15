@@ -9,7 +9,7 @@ import { RxCross2 } from "react-icons/rx";
 import { Badge } from "@mui/material";
 
 import { GiShoppingCart } from "react-icons/gi";
-// import Cart from "./Footer/Cart/Cart";
+
 import { useNavigate } from "react-router-dom";
 import { CartCoontext } from "../Context/Context";
 

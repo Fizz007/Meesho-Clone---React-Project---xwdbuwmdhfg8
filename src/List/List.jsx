@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
-// import withLoader from '../../HOC/withLoader';
+
 import Product from '../Product/Product'
 import '../List/List.css'
 import axios from 'axios';
-import Footer from '../component/Footer/Footer';
+
 
 const List = () => {
 
