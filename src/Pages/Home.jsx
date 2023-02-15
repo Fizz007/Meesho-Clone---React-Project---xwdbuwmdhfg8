@@ -24,7 +24,7 @@ const Home = () => {
           <Navigationbar />
           <Slider />
           <Categories />
-          <List />       
+          <List />    
 
          
     

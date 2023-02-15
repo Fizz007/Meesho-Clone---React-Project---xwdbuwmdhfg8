@@ -67,7 +67,6 @@ const Login = () => {
     name: "",
     email: "",
     pass: "",
-    welcome: "",
     logInn: true,
     id: nanoid(),
 
@@ -88,21 +87,21 @@ const Login = () => {
     // const validEmail = new RegExp(
     //     '^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
     // const validPassword = new RegExp('^(?=.*?[A-Za-z])(?=.*?[0-9]).{6,}$');
-    e.preventDefault();
+    // e.preventDefault();
     if (!value.email || !value.pass || !value.name) {
-      toast.error("Some error occured");
+      toast.error("Some fileds are missing");
       // seterr(true);
       // seterrtxt('Some fields are missing')
     } else {
       // seterr(false);
 
-      setValue((prev)=> ({
-        ...prev,
-        logInn: true }));
+      // setValue((prev)=> ({
+      //   ...prev,
+      //   logInn: true }));
       localStorage.setItem("user", JSON.stringify(value));
-      // props.changeUserData(value)
+      
       navigate("/");
-
+      // window.location.reload(false);
       
     }
   };
